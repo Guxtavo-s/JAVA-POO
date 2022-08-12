@@ -6,10 +6,10 @@ public class Paciente {
 		private String sexo;
 		private int idade;
 		private int celular;
-		private double cpf;
+		private String cpf;
 		private String situacao;
 		
-		public Paciente(String nome, String sobrenome, String sexo, int idade, int celular, double cpf, String situacao) {
+		public Paciente(String nome, String sobrenome, String sexo, int idade, int celular, String cpf, String situacao) {
 			this.nome = nome;
 			this.sobrenome = sobrenome;
 			this.sexo = sexo;
@@ -53,10 +53,10 @@ public class Paciente {
 		public void setCelular(int celular) {
 			this.celular = celular;
 		}
-		public double getCpf() {
+		public String getCpf() {
 			return cpf;
 		}
-		public void setCpf(double cpf) {
+		public void setCpf(String cpf) {
 			this.cpf = cpf;
 		}
 		public String getSituacao() {
