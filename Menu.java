@@ -1,22 +1,17 @@
-package com.generation.paciente.model;
+package com.generation.cliente;
 
-import com.generation.paciente.Paciente;
+import com.generation.cliente.model.Cliente;
 
 public class Menu {
+
 	public static void main(String[] args) {
-		Paciente p1 = new Paciente("Daenerys","Targaryen", "Femenino",23,999999999,101202303,"Dano por arma branca");
-		p1.visualizar();
-		Paciente p2 = new Paciente();
-		p2.visualizar();
+	
+		Cliente c1 = new Cliente("Rick Grimes", 101202303, 911112222,200, "Rua Neve Azul");
+		c1.visualizar();
+
 		
-		p2.setNome("Glenn");
-		p2.setSobrenome("Rhee");
-		p2.setSexo("Masculino");
-		p2.setIdade(24);
-		p2.setCelular(988888888);
-		p2.setCpf(202101303);
-		p2.setSituacao("Golpeado varias vezes na cabeça");
-		p2.visualizar();
+		
+		
 		
 	}
 
